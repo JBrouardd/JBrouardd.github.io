@@ -161,7 +161,7 @@
      width: 20%;
      justify-content: space-between;
  }
- @media only screen and (max-width: 1250px) and (min-width: 800px) {
+ @media only screen and (max-width: 1450px) and (min-width: 1200px) {
      header a {
          font-size: 1.8vw;
      }
@@ -191,7 +191,7 @@
          font-size: 3vw;
       }
     }
-    @media only screen and (max-width: 800px) and (min-width: 650px) {
+    @media only screen and (max-width: 1200px) and (min-width: 850px) {
         header a {
             font-size: 2.5vw;
         }
@@ -240,7 +240,7 @@
               width: 30%;
           }
     }
-    @media only screen and (max-width: 650px) and (min-width: 10px) {
+    @media only screen and (max-width: 850px) and (min-width: 10px) {
         header a {
             font-size: 3vw;
         }
