@@ -136,6 +136,9 @@
  #locations .loc {
      font-size: 2vw;
  }
+ #locations .loc i {
+     display: none;
+ }
  footer {
      background-color: #bccfda;
      padding: 1% 2%;
@@ -144,6 +147,7 @@
      align-content: center;
      align-items: center;
  }
+
  footer h4 {
    font-size: 1vw;
  }
@@ -241,51 +245,71 @@
           }
     }
     @media only screen and (max-width: 850px) and (min-width: 10px) {
+        header {
+            height: 80px;
+        }
+        header img {
+            height: 55px;
+        }
         header a {
-            font-size: 3vw;
+            color: white;
+            font-size: 3.5vw;
         }
         header nav {
-            width: 50%;
+            width: 55%;
         }
         #mission h2{
-            font-size: 7vw;
+            font-size: 12vw;
+            margin-bottom: 5%;
         }
         #mission h4 {
-          font-size: 3vw;
+          font-size: 6vw;
+          line-height: 1.4;
         }
         #tea {
             margin: 5% auto;
             width: 95%;
          }
          #tea .img-box {
-            width: 30%;
+            width: 42%;
          }
          #tea .img-box h2 {
           font-size: 2.7vw;
          }
          #tea .text h2{
-            font-size: 9vw;
+            font-size: 13vw;
          }
          #tea .text h4{
-            font-size: 4vw;
+            font-size: 6vw;
+            margin-bottom: 3%;
          }
          #locations {
             padding: 10% 5%;
         }
+        #locations .locs{
+            flex-direction: column;
+        }
         #locations .content {
-            font-size: 8vw;
+            font-size: 12vw;
         }
         #locations .loc {
-            font-size: 3vw;
+            font-size: 6vw;
+            margin-bottom: 5%;
+        }
+        #locations .loc i {
+            display: inline-block;
+        }
+        footer {
+            height: 70px;
         }
         footer h4 {
-            font-size: 2.5vw;
+            font-size: 3vw;
           }
           footer h1 {
               display: none;
           }
           footer .contact {
-              font-size: 2.5vw;
+              font-size: 3vw;
               width: 62%;
           }
     }
