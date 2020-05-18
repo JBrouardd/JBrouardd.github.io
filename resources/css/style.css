@@ -191,3 +191,102 @@
          font-size: 3vw;
       }
     }
+    @media only screen and (max-width: 800px) and (min-width: 650px) {
+        header a {
+            font-size: 2.5vw;
+        }
+        header nav {
+            width: 45%;
+        }
+        #mission h2{
+            font-size: 6vw;
+        }
+        #mission h4 {
+          font-size: 2.5vw;
+        }
+        #tea {
+            margin: 5% auto;
+            width: 95%;
+         }
+         #tea .img-box {
+            width: 30%;
+         }
+         #tea .img-box h2 {
+          font-size: 2.7vw;
+         }
+         #tea .text h2{
+            font-size: 9vw;
+         }
+         #tea .text h4{
+            font-size: 4vw;
+         }
+         #locations {
+            padding: 10% 10%;
+        }
+        #locations .content {
+            font-size: 7vw;
+        }
+        #locations .loc {
+            font-size: 2.5vw;
+        }
+        footer h4 {
+            font-size: 1.5vw;
+          }
+          footer h1 {
+           font-size: 3vw;
+          }
+          footer .contact {
+              font-size: 1.5vw;
+              width: 30%;
+          }
+    }
+    @media only screen and (max-width: 650px) and (min-width: 10px) {
+        header a {
+            font-size: 3vw;
+        }
+        header nav {
+            width: 50%;
+        }
+        #mission h2{
+            font-size: 7vw;
+        }
+        #mission h4 {
+          font-size: 3vw;
+        }
+        #tea {
+            margin: 5% auto;
+            width: 95%;
+         }
+         #tea .img-box {
+            width: 30%;
+         }
+         #tea .img-box h2 {
+          font-size: 2.7vw;
+         }
+         #tea .text h2{
+            font-size: 9vw;
+         }
+         #tea .text h4{
+            font-size: 4vw;
+         }
+         #locations {
+            padding: 10% 5%;
+        }
+        #locations .content {
+            font-size: 8vw;
+        }
+        #locations .loc {
+            font-size: 3vw;
+        }
+        footer h4 {
+            font-size: 2.5vw;
+          }
+          footer h1 {
+              display: none;
+          }
+          footer .contact {
+              font-size: 2.5vw;
+              width: 62%;
+          }
+    }
+    
