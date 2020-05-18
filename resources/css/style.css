@@ -244,7 +244,7 @@
               width: 30%;
           }
     }
-    @media only screen and (max-width: 850px) and (min-width: 10px) {
+    @media only screen and (max-width: 7in) {
         header {
             height: 80px;
         }
